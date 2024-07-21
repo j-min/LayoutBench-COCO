@@ -1,0 +1,9 @@
+diffusers==0.25.1
+torch==2.0.0
+torchvision==0.15.1
+matplotlib
+opencv-python
+pandas
+seaborn
+scipy
+pycocotools
