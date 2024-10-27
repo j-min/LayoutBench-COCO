@@ -21,7 +21,7 @@ Please see [LayoutBench Github](https://github.com/j-min/LayoutBench) for CLEVR-
 
 
 <p align="center">
-  <img src="assets/layoutbench_coco_examples.png" width="50%">
+  <img src="assets/layoutbench_coco_examples.png" width="70%">
 </p>
 
 
