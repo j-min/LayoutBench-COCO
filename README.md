@@ -1,4 +1,3 @@
-
 # LayoutBench-COCO
 
 The evaluation code for **LayoutBench-COCO**, a new diagnostic benchmark for layout-guided image generation **for real objects**, as described in the paper:
@@ -16,8 +15,16 @@ The evaluation code for **LayoutBench-COCO**, a new diagnostic benchmark for lay
 [[Paper](https://arxiv.org/abs/2304.06671)]
 [[Dataset (HF Hub)](https://huggingface.co/datasets/j-min/layoutbench-coco)]
 
-
 Please see [LayoutBench Github](https://github.com/j-min/LayoutBench) for CLEVR-based LayoutBench dataset.
+
+## Examples of LayoutBench-COCO input layouts in 4 skill splits.
+
+
+<p align="center">
+  <img src="assets/layoutbench_coco_examples.png" width="50%">
+</p>
+
+
 
 ## Usage
 
@@ -25,9 +32,23 @@ Please see [LayoutBench Github](https://github.com/j-min/LayoutBench) for CLEVR-
 
 Please see [./image_generation/README.md](image_generation/README.md) for instructions on downloading LayoutBench-COCO and generating images from layouts.
 
-### Step 2. Run Evaluation
+#### Example generated images
+
+<p align="center">
+  <img src="assets/layoutbench_coco_gen_examples.png" width="100%">
+</p>
+
+
+### Step 2. Run Evaluation on LayoutBench-COCO
 
 Please see [./yolov7/README.md](yolov7/README.md) for instructions on running evaluation on LayoutBench-COCO.
+
+#### Example evaluation results
+
+<p align="center">
+  <img src="assets/layoutbench_coco_table.png" width="50%">
+</p>
+
 
 # Citation
 
